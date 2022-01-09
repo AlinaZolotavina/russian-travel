@@ -10,11 +10,11 @@
   <header class="header">
     <img class="header__logo" src="./images/logo.svg" alt="Логотип Путешествия по России">
     <ul class="header__lang-zone">
-      <li class="header__lang-link">
-        <a>Ru</a>
+      <li class="header__lang-item header__lang-item_active">
+        <a class="header__lang-link" href="#">Ru</a>
       </li>
-      <li class="header__lang-link">
-        <a>En</a>
+      <li class="header__lang-item header__lang-item_active">
+        <a class="header__lang-link" href="#">En</a>
       </li>
     </ul>
   </header>
@@ -59,7 +59,7 @@
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
           <h3 class="place__url-heading">URL</h3>
-          <a class="place__link">park-kosa.ru</a>
+          <a class="place__link" href="http://park-kosa.ru" target="blank">park-kosa.ru</a>
         </div>
         <img class="place__image" src="./images/place__image1.jpg" alt="">
         <div class="place__text">
@@ -71,7 +71,7 @@
         <h2 class="place__title">Кольский</h2>
         <div class="place__website">
           <h3 class="place__url-heading">URL</h3>
-          <a class="place__link">National Geographic</a>
+          <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="blank">National Geographic</a>
         </div>
         <img class="place__image" src="./images/place__image2.jpg" alt="">
         <div class="place__text">
@@ -84,7 +84,7 @@
         <h2 class="place__title">Алтай</h2>
         <div class="place__website">
           <h3 class="place__url-heading">URL</h3>
-          <a class="place__link">Facebook</a>
+          <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="blank">Facebook</a>
         </div>
         <img class="place__image" src="./images/place__image3.jpg" alt="">
         <div class="place__text">
@@ -97,7 +97,7 @@
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
           <h3 class="place__url-heading">URL</h3>
-          <a class="place__link">https://vk.com/baikalmile</a>
+          <a class="place__link" href="https://vk.com/baikalmile" target="blank">https://vk.com/baikalmile</a>
         </div>
         <img class="place__image" src="./images/place__image4.jpg" alt="">
         <div class="place__text">
@@ -110,7 +110,7 @@
         <h2 class="place__title">Карелия</h2>
         <div class="place__website">
           <h3 class="place__url-heading">URL</h3>
-          <a class="place__link">http://vodlozero.ru/</a>
+          <a class="place__link" href="http://vodlozero.ru" target="blank">http://vodlozero.ru/</a>
         </div>
         <img class="place__image" src="./images/place__image5.jpg" alt="">
         <div class="place__text">
@@ -120,22 +120,22 @@
     </section>
 
     <section class="cover">
-      <div class="cover__overlay">
+      <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
         <div class="cover__background">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </div>
-      </div>
+      </a>
     </section>
   </main>
 
   <footer class="footer">
-    <nav>
-      <a class="footer__link">Карты</a>
-      <a class="footer__link">Погода</a>
-      <a class="footer__link">Расписание</a>
-      <a class="footer__link">Календарь</a>
-      <a class="footer__link">Путешествия</a>
+    <nav class="footer__nav">
+      <a class="footer__link" href="https://yandex.ru/maps" target="blank">Карты</a>
+      <a class="footer__link" href="https://yandex.ru/pogoda" target="blank">Погода</a>
+      <a class="footer__link" href="https://rasp.yandex.ru" target="blank">Расписание</a>
+      <a class="footer__link" href="https://calendar.yandex.ru" target="blank">Календарь</a>
+      <a class="footer__link" href="https://travel.yandex.ru" target="blank">Путешествия</a>
     </nav>
     <small class="footer__copyright">&copy; 2022. Алина Золотавина</small>
   </footer>
