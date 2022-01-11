@@ -1,0 +1,17 @@
+.cover__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-height: 740px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  background-color:  rgba(42,44, 47, .3);
+  transition: background-color 0.3s ease;
+}
+
+.cover__link:hover {
+  background-color: rgba(42,44, 47, .8);
+}
