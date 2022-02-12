@@ -15,7 +15,7 @@ This page contains information about natural sights of Russia, which can be visi
 - Media queries
 ## Future scope:
 - Creating an English version of the page
-# Научиться учиться ![russian](./images/russian.png?raw=true?raw=true)
+# Путешествия по России ![russian](./images/russian.png?raw=true?raw=true)
 ## О проекте:
 На этой странице собрана информация о природных достопримечательностях России, которые можно посетить, путешествуя на поезде. С этой страницы пользователь может перейти на сайты достопримечательностей или их страницы в социальных сетях, на страницу о поездке на Байкал на сайте [stampsy.com](https://stampsy.com), а также на следующие сервисы Яндекса: Карты, Погода, Расписание,Календарь и Путешествия.
 
