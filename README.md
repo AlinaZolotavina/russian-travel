@@ -1,3 +1,4 @@
+![Site gif](./images/travels-across-Russia.gif)
 # Travel across Russia ![english](./images/english.png?raw=true?raw=true)
 ## About the project:
 This page contains information about natural sights of Russia, which can be visited by traveling by train. The user can go from this page to atractions' sites or pages in social networks, to the page about traveling by train to Baikal on the website [stampsy.com](https://stampsy.com), and also to the Yandex services: Maps, Weather, Schedule, calendar and travel.
